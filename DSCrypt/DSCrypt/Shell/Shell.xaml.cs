@@ -1,11 +1,11 @@
 ﻿namespace DSCrypt.Shell
 {
-    using System.Windows;
+    using System.Windows.Controls.Ribbon;
 
     /// <summary>
     /// Interaction logic for Shell.xaml
     /// </summary>
-    public partial class Shell : Window
+    public partial class Shell : RibbonWindow
     {
         public Shell()
         {
