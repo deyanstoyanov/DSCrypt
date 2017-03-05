@@ -10,6 +10,10 @@
         public Shell()
         {
             this.InitializeComponent();
+            this.ViewModel = new ShellViewModel();
+            this.DataContext = this.ViewModel;
         }
+
+        public ShellViewModel ViewModel { get; set; }
     }
 }

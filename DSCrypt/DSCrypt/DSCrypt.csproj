@@ -62,6 +62,7 @@
     <Compile Include="Shell\Shell.xaml.cs">
       <DependentUpon>Shell.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Shell\ShellViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
