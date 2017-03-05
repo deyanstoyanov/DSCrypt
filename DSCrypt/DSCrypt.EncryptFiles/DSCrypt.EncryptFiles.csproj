@@ -89,6 +89,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ViewModels\RibbonTab\EncryptFilesRibbonTabViewModel.cs" />
     <Compile Include="Views\RibbonTab\EncryptFilesRibbonTab.xaml.cs">
       <DependentUpon>EncryptFilesRibbonTab.xaml</DependentUpon>
     </Compile>
@@ -106,9 +107,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewModels\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Page Include="Views\RibbonTab\EncryptFilesRibbonTab.xaml">
       <SubType>Designer</SubType>
