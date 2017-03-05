@@ -1,4 +1,4 @@
-﻿namespace DSCrypt.EncryptFiles.RibbonTab
+﻿namespace DSCrypt.EncryptFiles.Views.RibbonTab
 {
     using System.Windows.Controls.Ribbon;
 
