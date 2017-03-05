@@ -4,6 +4,7 @@
               xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
               xmlns:local="clr-namespace:DSCrypt.Views.Shell"
               xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+              xmlns:prism="http://www.codeplex.com/prism"
               Title="Shell"
               Width="300"
               Height="300"
@@ -14,7 +15,7 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <Ribbon x:Name="Ribbon">
+        <Ribbon x:Name="Ribbon" prism:RegionManager.RegionName="MainRegion">
             <Ribbon.ApplicationMenu>
                 <RibbonApplicationMenu>
                     <RibbonApplicationMenuItem Command="{Binding ExitCommand}" Header="Exit" />

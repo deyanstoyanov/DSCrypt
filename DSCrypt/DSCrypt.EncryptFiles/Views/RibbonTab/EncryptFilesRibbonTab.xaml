@@ -8,5 +8,8 @@
            d:DesignWidth="300"
            Header="EncryptFilesRibbonTab"
            mc:Ignorable="d">
-    <Grid />
+    <RibbonGroup x:Name="EncryptFilesGroup" Header="Encrypt Files">
+        <RibbonButton Label="Add Files" />
+        <RibbonButton Label="Encrypt Files" />
+    </RibbonGroup>
 </RibbonTab>

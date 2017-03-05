@@ -1,14 +1,22 @@
 ﻿namespace DSCrypt.EncryptFiles
 {
-    using System;
+    using DSCrypt.EncryptFiles.Views.RibbonTab;
 
     using Microsoft.Practices.Prism.Modularity;
+    using Microsoft.Practices.Prism.Regions;
 
     public class EncryptFilesModule : IModule
     {
+        private readonly IRegionViewRegistry regionViewRegistry;
+
+        public EncryptFilesModule(IRegionViewRegistry registry)
+        {
+            this.regionViewRegistry = registry;
+        }
+
         public void Initialize()
         {
-            throw new NotImplementedException();
+            this.regionViewRegistry.RegisterViewWithRegion("MainRegion", typeof(EncryptFilesRibbonTab));
         }
     }
 }
