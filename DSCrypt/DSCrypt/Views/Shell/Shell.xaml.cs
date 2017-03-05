@@ -1,6 +1,8 @@
-﻿namespace DSCrypt.Shell
+﻿namespace DSCrypt.Views.Shell
 {
     using System.Windows.Controls.Ribbon;
+
+    using DSCrypt.ViewModels.Shell;
 
     /// <summary>
     /// Interaction logic for Shell.xaml

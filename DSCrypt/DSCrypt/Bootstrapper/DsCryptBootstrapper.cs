@@ -2,7 +2,7 @@
 {
     using System.Windows;
 
-    using DSCrypt.Shell;
+    using DSCrypt.Views.Shell;
 
     using Microsoft.Practices.Prism.UnityExtensions;
     using Microsoft.Practices.Unity;

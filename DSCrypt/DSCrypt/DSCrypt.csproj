@@ -106,10 +106,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Bootstrapper\DsCryptBootstrapper.cs" />
-    <Compile Include="Shell\Shell.xaml.cs">
+    <Compile Include="Views\Shell\Shell.xaml.cs">
       <DependentUpon>Shell.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shell\ShellViewModel.cs" />
+    <Compile Include="ViewModels\Shell\ShellViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -140,7 +140,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Shell\Shell.xaml">
+    <Page Include="Views\Shell\Shell.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -1,4 +1,4 @@
-﻿namespace DSCrypt.Shell
+﻿namespace DSCrypt.ViewModels.Shell
 {
     using System.Windows;
     using System.Windows.Input;
